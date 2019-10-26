@@ -7,7 +7,9 @@ def createDb(uri, usr, pwd):
     uri: local machine with designated port from neo4j
     user: your username
     password: your password
-
+    ^ all above are useless for now, as there is no way 
+    I'm typing those in every time
+    
     Note - I have no idea why I needed to split the relationship
     creation into three separate queries, but trying to do them at once 
     just does not work, this way did. 
